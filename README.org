@@ -5,3 +5,7 @@ Examples: [[http://gm9.github.io/ingress-glyph-tools]]
 
 * License
 This software is released under the [[http://opensource.org/licenses/mit-license.php][MIT license]], see LICENSE.txt.
+
+* Credits
+Additional WebApp-Icons from [[http://cr0ybot.github.io/ingress-logos/][CC-NC-SA 3.0]]
+Exo Font from Natanael Gama [[http://www.fontsquirrel.com/fonts/exo][SIL Open Font License v1.10]]
