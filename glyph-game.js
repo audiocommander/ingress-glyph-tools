@@ -105,6 +105,7 @@
         var div;
         div = document.createElement("div");
         div.style.width = "100%";//padSize + "px";
+        div.style.minHeight = "368px";
         div.style.position = "absolute";
         div.style.left = "0";
         div.style.top = "0";
