@@ -6,6 +6,9 @@ html {
 
 body {
     margin:0;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 a {
@@ -23,7 +26,7 @@ input[type=button] {
 
 
 * {
-    font-family: 'exomedium', 'Arial';
+    font-family: 'exomedium', 'Arial', sans-serif;
 }
 
 b, strong,
@@ -39,6 +42,28 @@ i b, em strong, b i, strong em {
     font-family: 'exobolditalic';
 }
 
+ul {
+    list-style-type: none; /* cjk-ideographic; upper-greek; */
+    color: #555;
+    padding-left: 2em;
+}
+
+li {
+    font-size: 1em !important;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    height: 2em;
+}
+
+li a {
+    border: 2px solid #40ebcd;
+    border-radius: 0;
+    padding: 0.4em 1em;
+    background: #105050;
+    color: white;
+    text-decoration: none;
+    -webkit-appearance: none;
+}
 
 
 
@@ -47,50 +72,50 @@ i b, em strong, b i, strong em {
     font-family: 'exomedium';
     src: url('exo/exo-medium-webfont.eot');
     src: url('exo/exo-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('exo/exo-medium-webfont.woff2') format('woff2'),
-         url('exo/exo-medium-webfont.woff') format('woff'),
-         url('exo/exo-medium-webfont.ttf') format('truetype'),
-         url('exo/exo-medium-webfont.svg#exomedium') format('svg');
+    url('exo/exo-medium-webfont.woff2') format('woff2'),
+    url('exo/exo-medium-webfont.woff') format('woff'),
+    url('exo/exo-medium-webfont.ttf') format('truetype'),
+    url('exo/exo-medium-webfont.svg#exomedium') format('svg');
     font-weight: normal;
     font-style: normal;
-
+    
 }
 
 @font-face {
     font-family: 'exomediumitalic';
     src: url('exo/exo-mediumitalic-webfont.eot');
     src: url('exo/exo-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('exo/exo-mediumitalic-webfont.woff2') format('woff2'),
-         url('exo/exo-mediumitalic-webfont.woff') format('woff'),
-         url('exo/exo-mediumitalic-webfont.ttf') format('truetype'),
-         url('exo/exo-mediumitalic-webfont.svg#exomediumitalic') format('svg');
+    url('exo/exo-mediumitalic-webfont.woff2') format('woff2'),
+    url('exo/exo-mediumitalic-webfont.woff') format('woff'),
+    url('exo/exo-mediumitalic-webfont.ttf') format('truetype'),
+    url('exo/exo-mediumitalic-webfont.svg#exomediumitalic') format('svg');
     font-weight: normal;
     font-style: normal;
-
+    
 }
 
 @font-face {
     font-family: 'exobold';
     src: url('exo/exo-bold-webfont.eot');
     src: url('exo/exo-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('exo/exo-bold-webfont.woff2') format('woff2'),
-         url('exo/exo-bold-webfont.woff') format('woff'),
-         url('exo/exo-bold-webfont.ttf') format('truetype'),
-         url('exo/exo-bold-webfont.svg#exobold') format('svg');
+    url('exo/exo-bold-webfont.woff2') format('woff2'),
+    url('exo/exo-bold-webfont.woff') format('woff'),
+    url('exo/exo-bold-webfont.ttf') format('truetype'),
+    url('exo/exo-bold-webfont.svg#exobold') format('svg');
     font-weight: normal;
     font-style: normal;
-
+    
 }
 
 @font-face {
     font-family: 'exobolditalic';
     src: url('exo/exo-bolditalic-webfont.eot');
     src: url('exo/exo-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('exo/exo-bolditalic-webfont.woff2') format('woff2'),
-         url('exo/exo-bolditalic-webfont.woff') format('woff'),
-         url('exo/exo-bolditalic-webfont.ttf') format('truetype'),
-         url('exo/exo-bolditalic-webfont.svg#exobolditalic') format('svg');
+    url('exo/exo-bolditalic-webfont.woff2') format('woff2'),
+    url('exo/exo-bolditalic-webfont.woff') format('woff'),
+    url('exo/exo-bolditalic-webfont.ttf') format('truetype'),
+    url('exo/exo-bolditalic-webfont.svg#exobolditalic') format('svg');
     font-weight: normal;
     font-style: normal;
-
+    
 }
